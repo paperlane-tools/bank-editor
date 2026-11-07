@@ -5,11 +5,11 @@
 
 | | |
 |---|---|
-| 版本 | v2.4.2 |
+| 版本 | v2.4.3 |
 | 形态 | Python / tkinter 桌面应用（只用标准库） |
 | 平台 | Windows（双击 `.bat` 即可） |
 | 入口 | `打开题库编辑器.bat` / `python bank_editor.py` |
-| 下载 | [Releases](https://github.com/paperlane-tools/bank-editor/releases)（当前 `v2.4.2` 正式版） |
+| 下载 | [Releases](https://github.com/paperlane-tools/bank-editor/releases)（当前 `v2.4.3` 正式版） |
 
 > **适用平台：易智教云课堂（`csgmooc.com`）**
 > 读写的是 **「易智教助手」导出的题库 JSON**（`__meta__.app = yzj-csgmooc-helper`）。
@@ -22,7 +22,7 @@
 编辑「易智教助手」导出的**题库 JSON** 的图形界面小程序。Python 标准库写的（tkinter），
 **不用装任何东西、不用联网**。
 
-当前版本 v2.4.2。界面上的几条约定：
+当前版本 v2.4.3。界面上的几条约定：
 
 - **浅色 / 深色**：右上角「🌙 深色」一键切（也可以 `--dark` 启动就进深色）
 - **未保存会提醒**：改过之后窗口标题和状态栏右侧亮 ●，这时关窗会先问你要不要存
@@ -133,7 +133,7 @@ python quiz\bank_editor\bank_split_cli.py "C:\...\yzj-bank.json" -o "D:\题库"
 其它开关：`--no-guess`（不许猜）、`--public "语文,数学"` / `--major "电动机,PLC"`（换关键词）、
 `--policy new|old|skip`（撞 key 怎么办）、`--min N`（少于 N 条的组不出文件）、`--quiet`。
 
-### AI 整理（v2.4.2，极简 Agent）
+### AI 整理（v2.4.3，极简 Agent）
 
 工具栏的 **「AI 整理…」** 不是让模型自由发挥，而是一个被收得很紧的 Agent：
 
@@ -249,4 +249,4 @@ python quiz\bank_editor\test_bank_core.py
 
 ## 许可证
 
-[GPL-3.0-only](LICENSE) © 2026 paperlane-tools；修改版须注明来源（见 [NOTICE](NOTICE)）
+[GPL-3.0-only](LICENSE) © 2026 paperlane-tools；附加条款（署名 / 修改标注 / 名称使用 / 随附条款）见 [NOTICE](NOTICE)
