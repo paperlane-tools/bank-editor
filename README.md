@@ -10,6 +10,10 @@
 | 平台 | Windows（双击 `.bat` 即可） |
 | 入口 | `打开题库编辑器.bat` / `python bank_editor.py` |
 
+> **适用平台：易智教云课堂（`csgmooc.com`）**
+> 读写的是 **「易智教助手」导出的题库 JSON**（`__meta__.app = yzj-csgmooc-helper`）。
+> 其他平台导出的题库字段不兼容时，会读不出题干 / 科目。
+
 ---
 
 ## 速览（原来的详细说明在下面）
