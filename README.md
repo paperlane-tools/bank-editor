@@ -9,6 +9,7 @@
 | 形态 | Python / tkinter 桌面应用（只用标准库） |
 | 平台 | Windows（双击 `.bat` 即可） |
 | 入口 | `打开题库编辑器.bat` / `python bank_editor.py` |
+| 下载 | [Releases](https://github.com/paperlane-tools/bank-editor/releases)（当前 `v2.4.0` 正式版） |
 
 > **适用平台：易智教云课堂（`csgmooc.com`）**
 > 读写的是 **「易智教助手」导出的题库 JSON**（`__meta__.app = yzj-csgmooc-helper`）。
@@ -132,7 +133,7 @@ python quiz\bank_editor\bank_split_cli.py "C:\...\yzj-bank.json" -o "D:\题库"
 其它开关：`--no-guess`（不许猜）、`--public "语文,数学"` / `--major "电动机,PLC"`（换关键词）、
 `--policy new|old|skip`（撞 key 怎么办）、`--min N`（少于 N 条的组不出文件）、`--quiet`。
 
-### AI 整理（v2.4，极简 Agent）
+### AI 整理（v2.4.0，极简 Agent）
 
 工具栏的 **「AI 整理…」** 不是让模型自由发挥，而是一个被收得很紧的 Agent：
 
