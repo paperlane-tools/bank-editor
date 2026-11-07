@@ -37,7 +37,7 @@ import bank_core as core  # noqa: E402
 import bank_ai  # noqa: E402
 
 APP = "易智教 · 题库编辑器"
-VERSION = "2.4"
+VERSION = "2.4.0"
 UNDO_MAX = 20
 SEARCH_PH = "搜索题干 / 答案 / key…（空格分开＝全中）"
 # 界面偏好（窗口大小/主题/排序/上次目录）存这儿，别往项目目录里塞文件
