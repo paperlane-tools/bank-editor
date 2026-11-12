@@ -1,0 +1,6 @@
+config.json
+ai_config.json
+.env
+.env.*
+*.pem
+*.key
